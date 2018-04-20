@@ -20,11 +20,13 @@ A new Journey to Go...
   	    Basically it does not support dynamic data type.
      E.g.
      ``` go
-     Syntax 1:
-     	var num1 float64 = 5.7
+     //Syntax 1:
+		var num1 float64 = 5.7
 		var num2 float64 = 9.7
-	 Syntax 2:
+	 //Syntax 2:
 		var num1, num2, float64 = 5.7, 9.7
-	 Syntax 3:
+	 //Syntax 3:
 	 	num1, num2 := 5.7, 9.7
      ```
+ - fourth.go 
+   Example of pointers in Go it is pretty similar to the pointer in C
